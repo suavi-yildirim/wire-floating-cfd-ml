@@ -1,0 +1,52 @@
+# Allow-list: everything is ignored except the folders re-included below.
+# Personal documents, thesis text, literature, admin files and raw photos stay local.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/LICENSE-DATA.md
+!/CITATION.cff
+!/docs/
+
+# Experimental data (WFE runs, TFA runs, summaries)
+!/03_Experimental_Data/
+
+# CAD geometries of the fluid domains
+!/04_CAD_Geometry/
+
+# CFD simulation reports (screenshots and notes stay local)
+!/05_CFD_Simulation/
+/05_CFD_Simulation/*
+!/05_CFD_Simulation/Report_Data/
+
+# Analysis scripts (session command dumps stay local)
+!/06_Analysis_Scripts/
+/06_Analysis_Scripts/raw_commands/
+
+# Machine learning datasets and scripts (old versions and thesis text stay local)
+!/07_Machine_Learning_PIML/
+/07_Machine_Learning_PIML/*
+!/07_Machine_Learning_PIML/MATLAB_PIML/
+/07_Machine_Learning_PIML/MATLAB_PIML/Old/
+!/07_Machine_Learning_PIML/thesis_ml_update/
+/07_Machine_Learning_PIML/thesis_ml_update/*.tex
+/07_Machine_Learning_PIML/thesis_ml_update/*.bak*
+/07_Machine_Learning_PIML/thesis_ml_update/changes.diff
+
+# Straightness analysis: code and results only, no raw photos
+!/08_Straightness_Analysis/
+/08_Straightness_Analysis/WFE Straightness Photos/
+/08_Straightness_Analysis/More_Photos/
+/08_Straightness_Analysis/**/*.HEIC
+/08_Straightness_Analysis/**/*.heic
+/08_Straightness_Analysis/**/*.JPG
+/08_Straightness_Analysis/**/*.jpg
+/08_Straightness_Analysis/**/*.jpeg
+
+# Everywhere
+.DS_Store
+~$*
+__pycache__/
+*.pyc
+*.asv
+*.zip

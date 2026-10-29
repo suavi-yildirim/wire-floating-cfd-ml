@@ -1,0 +1,116 @@
+WIRE FLOATING EXPERIMENT
+Software_Version:v5-09
+Date:20260326_134009
+Experiment_Total:1096;
+Experiment_Start_Time:26.03.2026 12:40:08,780;
+Experiment_End_Time:01.01.1990,000;
+Angle:90;
+
+PID CONFIGURATION
+Mode_Increasing:True;
+Mode_Stabilizing:True;
+Mode_Counting:False;
+Mode_Hold_Pressure:False;
+Timer_WFE_Stable_Time:30000;
+Timer_WFE_Above_Time:400000;
+Sensor_Number:5;
+Sensor_Target:18;
+Target_Position:0,095;
+Target_Min:0,0725;
+Target_Max:0,1175;
+Pressure_Base_Percent:79;
+Pressure_Start:2400;
+Pressure_Base:1646;
+Pressure_Increase:10;
+Timer_Pressure_Increase:1000;
+Pressure_Decrease:10;
+Timer_Pressure_Decrease:200;
+
+PID CONFIGURATION
+PID_Pressure_Range:3000;
+PID_Compact_WFE_Retain_CtrlParams_Cycle:0,001;
+PID_Compact_WFE_Retain_CtrlParams_DeadZone:0,001;
+PID_Compact_WFE_Retain_CtrlParams_DWeighting:1;
+PID_Compact_WFE_Retain_CtrlParams_Gain:70;
+PID_Compact_WFE_Retain_CtrlParams_PWeighting:1;
+PID_Compact_WFE_Retain_CtrlParams_Td:1;
+PID_Compact_WFE_Retain_CtrlParams_TdFiltRatio:0,2;
+PID_Compact_WFE_Retain_CtrlParams_Ti:10;
+
+SYSTEM CONFIGURATION
+TUBE_uid:5;
+TUBE_name:FAPS_WFE_WC10;
+TUBE_description:WFE WC-10;
+TUBE_diameter:10;
+TUBE_length:4,151;
+TUBE_vertical_lifting_pos:4;
+TUBE_vertical_lifting_neg:0;
+TUBE_channel:2;
+
+WIRE CONFIGURATION
+WIRE_uid:3;
+WIRE_instance:2;
+WIRE_section:0,5;
+WIRE_lenght:2;
+WIRE_type:1;
+WIRE_end_1:1;
+WIRE_end_2:1;
+
+SENSOR INFORMATION
+S;Sensor_Used_Position_arr;DB_WFE_Sensor_Target_arr;Sensor_Used_Activation_arr;Sensor_Used_Deactivation_arr
+S1;0,027;False;0;1
+S2;0,055;False;1;2
+S3;0,095;False;0;0
+S4;0,135;False;0;0
+S5;0,175;False;0;0
+
+SYSTEM RESPONSE
+stable: False
+above: False
+Experiment_Duration:426;
+Experiment_Above_Duration:0;
+increases: 2
+decreases: 1
+
+STABLE PHASES  - count: 2
+Phase;Start_Time;End_Time;Duration;Iteration;Pressure_Stable_Min;Pressure_Stable_Max;Pressure_Stable_Average;Flow_Stable_Min;Flow_Stable_Max;Flow_Stable_Average;Temp_Stable_Average
+1;26.03.2026 12:40:09,392;26.03.2026 12:40:09,396;3;4;2025;2063;2044;2182;2219;2200,5;215
+2;26.03.2026 12:40:09,605;01.01.1990,000;18;19;1664;1674;1674;1810;1826;1818,615;214
+
+INCREASES - count: 2
+Increase_Time;Increase_Pressure;Increase_Flow;Increase_Temp;Increase_Position;Increase_Prev_Position;Increase_Target_Position
+26.03.2026 12:40:09,254;2083;2195;215;0,041;0;0,095
+26.03.2026 12:40:09,605;1674;1826;214;0,075;0,041;0,095
+
+DECREASES - count: 1
+Decrease_Time;Decrease_Pressure;Decrease_Flow;Decrease_Temp;Decrease_Position;Decrease_Prev_Position;Decrease_Target_Position
+26.03.2026 12:40:09,396;2025;2182;215;0,041;0,075;0,095
+
+ALL SENSOR CHANGES - count: 3
+S;Changed_Time;Changed_Result;Changed_Pressure1;Changed_Flow1;Changed_Pressure2;Changed_Flow2
+S16;26.03.2026 12:40:09,253;False;0;0;2083;2195
+S17;26.03.2026 12:40:09,391;False;0;0;2063;2219
+S17;26.03.2026 12:40:09,395;True;0;0;2025;2182
+
+SYSTEM FLUID RESPONSE - count:18 period:50
+Pressure_SET;Pressure_IS;Flow_IS;Temperature_IS;Position_WIRE
+2410;1545;1744;215;0
+2410;1551;1744;215;0
+2410;1578;1753;215;0
+2410;1684;1844;215;0
+2410;1764;1915;215;0
+2410;1840;1995;215;0
+2410;1905;2055;215;0
+2410;1965;2115;215;0
+2410;2018;2160;215;0
+2410;2052;2182;215;0
+1646;2086;2204;215;0,041
+1647;2137;2257;215;0,041
+1647;2063;2219;215;0,041
+1654;1966;2121;215;0,041
+1653;1889;2037;215;0,041
+1653;1815;1960;215;0,041
+1652;1728;1882;214;0,041
+1268;1664;1810;214;0,075
+
+eof

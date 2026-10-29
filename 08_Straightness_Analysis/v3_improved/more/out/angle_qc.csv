@@ -1,0 +1,41 @@
+photo,span,bridged_mm,max_dtheta_deg,s_at_max,first_violation_mm,n_violations,usable_from,usable_to,status
+IMG_6006,window,0.0,43.6,468.8,289.8,210,299.3,279.8,FLAG - violation inside 90-490 mm: improve detection
+IMG_6007,window,0.0,47.9,428.1,305.6,155,91.6,295.6,FLAG - violation inside 90-490 mm: improve detection
+IMG_6008,window,0.0,4.6,110.8,,0,90.3,489.3,OK
+IMG_6009,window,0.0,68.1,418.6,394.6,80,90.1,384.6,FLAG - violation inside 90-490 mm: improve detection
+IMG_6011,window,0.0,44.6,459.1,385.1,164,279.1,375.1,FLAG - violation inside 90-490 mm: improve detection
+IMG_6014,window,0.0,52.1,419.0,312.5,156,298.0,302.5,FLAG - violation inside 90-490 mm: improve detection
+IMG_6015,window,0.0,42.7,216.7,,48,232.7,484.2,OK
+IMG_6016,window,0.0,26.8,469.0,411.5,60,90.5,401.5,FLAG - violation inside 90-490 mm: improve detection
+IMG_6017,window,0.0,2.8,240.9,,0,90.4,466.4,OK
+IMG_6018,window,0.0,46.0,447.6,396.1,146,254.1,386.1,FLAG - violation inside 90-490 mm: improve detection
+IMG_6020,window,0.0,48.3,400.6,290.1,250,299.6,280.1,FLAG - violation inside 90-490 mm: improve detection
+IMG_6021,window,0.0,2.3,342.0,,0,90.0,489.5,OK
+IMG_6022,window,0.0,34.7,176.1,,80,240.1,489.6,OK
+IMG_6025,window,0.0,3.5,295.5,,0,90.0,489.5,OK
+IMG_6026,window,0.0,34.8,334.4,302.4,263,294.9,292.4,FLAG - violation inside 90-490 mm: improve detection
+IMG_6027,window,0.0,36.3,453.3,419.3,96,260.3,409.3,FLAG - violation inside 90-490 mm: improve detection
+IMG_6028,window,0.0,46.0,332.6,305.6,154,188.6,295.6,FLAG - violation inside 90-490 mm: improve detection
+IMG_6030,window,0.0,41.6,315.5,290.5,117,254.0,280.5,FLAG - violation inside 90-490 mm: improve detection
+IMG_6033,window,0.0,46.1,357.7,350.7,111,184.2,340.7,FLAG - violation inside 90-490 mm: improve detection
+IMG_6035,window,0.0,34.6,429.1,295.1,164,276.1,285.1,FLAG - violation inside 90-490 mm: improve detection
+IMG_6036,window,0.0,2.1,320.7,,0,90.2,489.7,OK
+IMG_6039,window,0.0,33.5,457.3,316.8,96,270.8,306.8,FLAG - violation inside 90-490 mm: improve detection
+IMG_6040,window,0.0,30.7,418.3,289.8,137,299.3,279.8,FLAG - violation inside 90-490 mm: improve detection
+IMG_6041,window,0.0,26.4,235.2,,74,284.2,489.7,OK
+IMG_6042,window,0.0,1.9,318.5,,0,90.5,489.5,OK
+IMG_6045,window,6.0,36.9,307.8,302.3,37,90.3,292.3,FLAG - violation inside 90-490 mm: improve detection
+IMG_6047,window,1.0,20.3,299.9,296.4,40,90.4,286.4,FLAG - violation inside 90-490 mm: improve detection
+IMG_6048,window,0.0,43.3,477.7,451.2,173,293.2,441.2,FLAG - violation inside 90-490 mm: improve detection
+IMG_6049,window,0.0,42.6,215.9,289.9,93,299.4,279.9,FLAG - violation inside 90-490 mm: improve detection
+IMG_6050,window,0.0,4.3,393.5,,0,90.0,489.5,OK
+IMG_6052,window,0.0,19.1,106.6,397.1,22,146.1,387.1,FLAG - violation inside 90-490 mm: improve detection
+IMG_6053,window,0.0,38.0,222.1,,51,264.1,489.6,OK
+IMG_6067,window,0.0,41.2,113.8,,30,129.8,489.3,OK
+IMG_6068,window,0.0,2.9,361.1,,0,90.1,489.6,OK
+IMG_6069,window,0.0,4.2,474.0,,0,90.0,489.5,OK
+IMG_6070,window,0.0,1.8,313.8,,0,90.3,489.3,OK
+IMG_6075,window,0.0,47.5,397.9,371.4,53,90.4,361.4,FLAG - violation inside 90-490 mm: improve detection
+IMG_6076,window,25.0,39.8,385.7,379.2,105,208.2,369.2,FLAG - violation inside 90-490 mm: improve detection
+IMG_6077,window,20.0,31.7,469.0,464.5,20,90.0,454.5,FLAG - violation inside 90-490 mm: improve detection
+IMG_6080,window,23.0,36.9,401.3,376.3,41,90.3,366.3,FLAG - violation inside 90-490 mm: improve detection

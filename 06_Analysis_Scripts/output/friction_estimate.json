@@ -1,0 +1,34 @@
+{
+ "8": {
+  "n_instances": 37,
+  "median_diff_mbar": 40.41235074585552,
+  "iqr_mbar": [
+   13.11050000000023,
+   90.27359999999999
+  ],
+  "n_positive": 32,
+  "wilcoxon_p": 1.8866558093577623e-07,
+  "n_wire_types_calibration": 20,
+  "slope_mbar_per_N": 293.6101835717034,
+  "R2": 0.4759822855841123,
+  "friction_half_band_N": 0.0688197361791886,
+  "mean_weight_N": 0.5426892000000001,
+  "friction_share_of_weight": 0.1268124299860557
+ },
+ "10": {
+  "n_instances": 27,
+  "median_diff_mbar": 58.748999999999796,
+  "iqr_mbar": [
+   -8.881999999999834,
+   193.4979712848799
+  ],
+  "n_positive": 17,
+  "wilcoxon_p": 0.012076601386070251,
+  "n_wire_types_calibration": 20,
+  "slope_mbar_per_N": 820.6998403504791,
+  "R2": 0.7659292099688549,
+  "friction_half_band_N": 0.0357920137860092,
+  "mean_weight_N": 0.5426892000000001,
+  "friction_share_of_weight": 0.065953060768501
+ }
+}

@@ -1,0 +1,32 @@
+TUBE FLOW ANALYSIS
+Software_Version:v5-09
+Date:20250903_093936
+Experiment_Total:48;
+Experiment_Start_Time:03.09.2025 07:39:36,688;
+Experiment_End_Time:03.09.2025 07:39:36,687;
+TFA_Pressure_Min:100;
+TFA_Pressure_Max:6000;
+TFA_Pressure_Inc:100;
+TFA_Timer_Hold_Pressure:3000;
+TFA_Timer_Ramp_Up:5000;
+
+SYSTEM CONFIGURATION
+TUBE_uid:0;
+TUBE_name:Specific;
+TUBE_Description:VF + FT-08-0.1-R0.1 + Da-B12-13;
+TUBE_diameter:0;
+TUBE_length:0;
+TUBE_vertical_lifting_pos:0;
+TUBE_vertical_lifting_neg:0;
+TUBE_channel:2;
+
+SYSTEM RESPONSE
+TFA_pressure_SET;TFA_pressure_IS;TFA_flow_IS;TFA_temp_IS
+
+SYSTEM FLUID RESPONSE - count:3 period:50
+Pressure_SET;Pressure_IS;Flow_IS;Temperature_IS
+101;5997;571;267
+101;5994;573;267
+101;5462;521;266
+
+eof

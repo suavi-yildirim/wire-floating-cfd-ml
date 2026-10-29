@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "CFD Modeling and Machine-Learning-Based Prediction of Aerodynamic Floating Conditions in Pneumatic Wire-in-Tube Conveying: data and code"
+type: dataset
+authors:
+  - family-names: Yildirim
+    given-names: Suavi
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Institute for Factory Automation and Production Systems (FAPS)"
+repository-code: "https://github.com/suavi-yildirim/wire-floating-cfd-ml"
+license:
+  - MIT
+  - CC-BY-4.0
+date-released: 2026-10-29
+keywords:
+  - pneumatic conveying
+  - wire-in-tube
+  - CFD
+  - ANSYS Fluent
+  - machine learning
+  - Gaussian process regression
+  - control cabinet manufacturing
+preferred-citation:
+  type: thesis
+  thesis-type: "Master's thesis"
+  title: "CFD Modeling and Machine-Learning-Based Prediction of Aerodynamic Floating Conditions in Pneumatic Wire-in-Tube Conveying"
+  authors:
+    - family-names: Yildirim
+      given-names: Suavi
+  institution:
+    name: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)"
+    city: Erlangen
+    country: DE
+  year: 2026
